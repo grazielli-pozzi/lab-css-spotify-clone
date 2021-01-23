@@ -6,3 +6,94 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    height: 50px;
+}
+
+@keyframes spotify-logo {
+    0% {
+        height: 40px;
+    }
+
+    100% {
+        height: 50px;
+    }
+}
+
+.spotify-logo {
+    animation-name: spotify-logo;
+    animation-duration: 2s;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav > ul > li {
+    list-style: none;
+    padding: 10px;
+}
+
+.cover {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    height: 800px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover > h1 {
+    font-size: 60px;
+    padding-left: 330px;
+    padding-top: 200px;
+}
+
+.cover > p {
+    font-size: 20px;
+    padding-left: 350px;
+    padding-right: 300px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-section-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-section-2 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-section-2 > div > p {
+    align-items: center;
+    width: 60%;
+}
+
+.div-section-2 > div > h3 {
+    color: #00B172;
+}
+
